@@ -19,7 +19,7 @@ verify(dependency, never()).someMethod();
 
 * How do you verify that a mock was called with specific arguments?
 
-use the argThat method Like so
+use the argThat method like so
 ```
 argThat(x -> x.firstname.equals(firstName) &&
         x.lastname.equals(lastName)));
@@ -49,4 +49,17 @@ JSONParser implementation: Click [Here](https://github.com/josefmarcc/softTestAs
 
 All tests found here: Click [Here](https://github.com/josefmarcc/softTestAssignment4/blob/main/src/test/java/JSONParser/JSONParserTests.java)
 
+## Test Results
+
+### Jacoco
+
+![Jacoco](https://github.com/josefmarcc/softTestAssignment4/blob/main/jacoco.PNG)
+
+### PMD
+
+![PMD](https://github.com/josefmarcc/softTestAssignment4/blob/main/pmd.PNG)
+
+### PiTest
+
+![PMD](https://github.com/josefmarcc/softTestAssignment4/blob/main/pittest.PNG)
 
